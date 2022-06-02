@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+}
+
+.red {
+    background: linear-gradient(red, rgb(177, 95, 95), rgb(147, 5, 5));
+    box-shadow: 5px 0 5px 0 rgba(225, 152, 5, 0.75);
+}
+
+.green {
+    background: linear-gradient(green, rgb(28, 49, 28), rgb(4, 163, 4));
+    box-shadow: 5px 0 5px 0 rgba(8, 36, 0, 0.75);
+}
+
+.blue {
+    background: linear-gradient(rgb(11, 11, 178), rgb(27, 31, 66), rgb(15, 15, 193));
+    box-shadow: 5px 0 5px 0 rgba(20, 120, 167, 0.75);
+}
+
+.marker {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+}
+
+.sleeve {
+    width: 110px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-left: 10px double rgba(255, 247, 0, 0.75)
+    /* opacity: 0.7; */
+}
+
+.cap {
+    width: 60px;
+    height: 25px;
+}
+
+.cap,
+.sleeve {
+    display: inline-block;
+}
